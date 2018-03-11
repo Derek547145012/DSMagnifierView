@@ -2,6 +2,7 @@
 ## DSMagnifierView是一个有放大镜子效果的自定义控件。
 
 先看效果：
+
 ![放大镜效果](http://img.blog.csdn.net/20180311133048275?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvRGVyZWtfbWlzcw==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
 
 其实很简单，就是把UIWindow的图层给渲染到DSMagnifierView上。
