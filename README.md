@@ -6,6 +6,7 @@
 ![放大镜效果](http://img.blog.csdn.net/20180311133048275?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvRGVyZWtfbWlzcw==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
 
 其实很简单，就是把UIWindow的图层给渲染到DSMagnifierView上。
+
 由于这个放大镜要处于屏幕最上层，最好是UIWindow的子类，这样可以设置它的视图层级。
 
 ## 使用方法
